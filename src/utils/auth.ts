@@ -30,3 +30,4 @@ export const getProfileFromLS = () => {
 export const setProfileToLS = (profile: User) => {
   localStorage.setItem('profile', JSON.stringify(profile))
 }
+
